@@ -1,0 +1,10 @@
+@dls_backend_HostAddress = http://localhost:5159
+
+GET {{dls_backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{dls_backend_HostAddress}}/api/stories/testconnection
+Accept: application/json
+
