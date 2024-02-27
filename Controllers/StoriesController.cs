@@ -18,7 +18,7 @@ namespace DLS_Backend.Controllers
         public StoriesController(ILogger<StoriesController> logger)
         {
             _logger = logger;
-            _connectionString = "Server=localhost;Database=dsl_backend;Trusted_Connection=True;TrustServerCertificate=True";
+            _connectionString = "Server=localhost;Database=dls_backend;Trusted_Connection=True;TrustServerCertificate=True";
         }
 
         [HttpGet("testconnection")]
